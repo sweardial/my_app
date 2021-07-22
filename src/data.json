@@ -1,0 +1,69 @@
+{
+  "products" : [
+    {
+      "id": "qwe",
+      "title" : "Dress 1", 
+      "image" : "/images/dress1.jpg", 
+      "desc": "very beautiful dress",
+      "price" : 20,
+      "availableSizes" : ["XS", "S"]
+    },
+    {
+      "id": "qasd",
+      "title" : "Dress 2", 
+      "image" : "/images/dress2.jpg", 
+      "desc": "very beautiful dress",
+      "price" : 22,
+      "availableSizes" : ["XS", "S"]
+    },
+    {
+      "id": "qwsdfe",
+      "title" : "Dress 3", 
+      "image" : "/images/dress3.jpg", 
+      "desc": "very beautiful dress",
+      "price" : 123,
+      "availableSizes" : ["XS","L", "S"]
+    },
+    {
+      "id": "qwe",
+      "title" : "Dress 1", 
+      "image" : "/images/dress1.jpg", 
+      "desc": "very beautiful dress",
+      "price" : 20,
+      "availableSizes" : ["XS", "S"]
+    },
+    {
+      "id": "qwe",
+      "title" : "Dress 1", 
+      "image" : "/images/dress1.jpg", 
+      "desc": "very beautiful dress",
+      "price" : 20,
+      "availableSizes" : ["XS", "S"]
+    },
+    {
+      "id": "qwe",
+      "title" : "Dress 1", 
+      "image" : "/images/dress1.jpg", 
+      "desc": "very beautiful dress",
+      "price" : 20,
+      "availableSizes" : ["XS", "S"]
+    },
+    {
+      "id": "qwe",
+      "title" : "Dress 1", 
+      "image" : "/images/dress1.jpg", 
+      "desc": "very beautiful dress",
+      "price" : 20,
+      "availableSizes" : ["XS", "S"]
+    },
+    {
+      "id": "qwe",
+      "title" : "Dress 1", 
+      "image" : "/images/dress1.jpg", 
+      "desc": "very beautiful dress",
+      "price" : 20,
+      "availableSizes" : ["XS", "S"]
+    }
+
+  ]
+}

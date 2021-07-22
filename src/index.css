@@ -28,10 +28,10 @@ header {
   grid-area: header;
   display: flex;
   align-items: center;
-
 }
 
 main {
+  display: flex;
   grid-area: main;
 }
 
@@ -44,13 +44,89 @@ footer {
   align-items: center;
 }
 
-
-a {
+header a {
   color: white;
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
 a:hover {
   color: red;
+}
 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  flex: 3 60rem;
+}
+
+.sidebar {
+  flex:1 30rem;
+}
+
+/* products */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.products li {
+  flex: 0 1 29 rem;
+  height: 47rem;
+  padding: 1rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.product img {
+  max-width: 37rem;
+  max-height: 37rem;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-price div {
+  font-size: 2rem ;
+}
+
+.product-price div,
+.product-price button {
+  text-align: center;
+  flex: 1;
+}
+
+.button {
+  padding: 1rem;
+  border: .1rem solid white;
+  background-color: rgba(245, 190, 9, 0.849);
+  cursor: pointer;
+}
+
+.button.primary {
+  height:40px;
+  border-radius: 10px;
+  background-color: rgba(245, 190, 9, 0.849);
+}
+
+.button:hover, .button-primary:hover{
+  background-color: rgb(252, 122, 0);
 }
